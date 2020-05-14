@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "dashboard-app": "http://localhost:4201/main.js",
+    "settings-app": "http://localhost:4202/main.js"
+  }
+}
