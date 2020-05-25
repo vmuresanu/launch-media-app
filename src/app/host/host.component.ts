@@ -24,4 +24,9 @@ export class HostComponent implements OnInit, OnDestroy {
     await this.service.unmount(this.appName).toPromise();
   }
 
+  x() {
+    const a = {b: () => 'returnSomeThing'};
+    a?.b();
+  }
+
 }
